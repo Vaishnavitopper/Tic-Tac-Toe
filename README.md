@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 # We will code for the game Tic Tac Toe by using Python.
-# Function to print Tic Tac Toe
+#Function to print Tic Tac Toe
 def print_tic_tac_toe(values):
     print("\n")
     print("\t     |     |")
@@ -18,7 +18,7 @@ def print_tic_tac_toe(values):
     print("\n")
  
  
-# Function to print the score-board
+#Function to print the score-board
 def print_scoreboard(score_board):
     print("\t--------------------------------")
     print("\t              SCOREBOARD       ")
@@ -30,7 +30,7 @@ def print_scoreboard(score_board):
  
     print("\t--------------------------------\n")
  
-# Function to check if any player has won
+#Function to check if any player has won
 def check_win(player_pos, cur_player):
  
     # All possible winning combinations
@@ -45,13 +45,13 @@ def check_win(player_pos, cur_player):
     # Return False if no combination is satisfied       
     return False       
  
-# Function to check if the game is drawn
+#Function to check if the game is drawn
 def check_draw(player_pos):
     if len(player_pos['X']) + len(player_pos['O']) == 9:
         return True
     return False       
  
-# Function for a single game of Tic Tac Toe
+#Function for a single game of Tic Tac Toe
 def single_game(cur_player):
  
     # Represents the Tic Tac Toe
